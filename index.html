@@ -1,2 +1,26 @@
-<a href="ModTheCube/">Mod the Cube</a>
-<a href="RollABall/">Roll a Ball</a>
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Page Title</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="js/functions.js"></script>
+</head>
+
+<body>
+
+<!-- Sidebar -->
+	<div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+	  <h3 class="w3-bar-item">Games</h3>
+	  <a href="games/ModTheCube" target="iframe_game" class="w3-bar-item w3-button">Mod the Cube</a>
+	  <a href="games/RollABall" target="iframe_game" class="w3-bar-item w3-button">Roll a Ball</a>
+	</div>
+
+<!-- Page Content -->
+	<div style="margin-left:25%">
+		<iframe id="iframe_game" src="" name="iframe_game" onload="resizeIframeToFitContent(this)"></iframe>
+	</div>
+
+</body>
+
+</html>
